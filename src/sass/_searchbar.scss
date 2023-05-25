@@ -1,0 +1,23 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  padding: 16px 14px 16px 16px;
+  width: 100%;
+}
+.searchForm__query {
+  width: 292px;
+  border: none;
+  outline: transparent;
+
+  &::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.0025em;
+  }
+}
+
+.searchForm__btn {
+  padding: 0;
+  border: none;
+}

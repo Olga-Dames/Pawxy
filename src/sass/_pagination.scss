@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  list-style: none;
+  width: fit-content;
+  padding: 20px 9px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.pagination li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.white {
+  color: white;
+}
+
+.current {
+  background-color: black;
+  color: rgb(231, 60, 60);
+}
+
+.more {
+  display: none;
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+  }
+}
+
+.next__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.0025em;
+  color: #2b2f39;
+}

@@ -1,0 +1,29 @@
+.google__button {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+width: 100%;
+height: 36px;
+background: #FFFFFF;
+border-radius: 33px;
+border: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.0025em;
+color: #2A8CFF;
+}
+
+.svg {
+    display: block;
+}
+
+.query {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.0025em;
+color: #2A8CFF;
+}

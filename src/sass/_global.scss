@@ -1,0 +1,40 @@
+body {
+    font-family: $primary-font;
+    color: $primary-font-color;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  padding: 0;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.container {
+    @media screen and (min-width: 360px) {
+        width: 360px;
+        padding: 0 10px;
+      } 
+}
